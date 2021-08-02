@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="document.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: #5c011f;
+    text-align: center;
+}
+
+h2{
+    font-size: 60px;
+}
+
+.zagolovok_black2{
+    font-size: 18px;
+}
+
+.flex_cubes_head{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-left: 500px;
+    
+}
+
+.cube_head{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    background: #1f5c01;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+.zagolovok_white{
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.zagolovok_black{
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.flex_cubes_body{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: 400px;
+}
+
+.cube_body{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    background: #1f5c01;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+span{
+    position: relative;
+    top: 160px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.text_body{
+    margin-top: 100px;
+}
+
+.paralilepiped{
+    width: 300px;
+    height: 200px;
+    background-color: #1f5c01;
+    box-shadow: 0 0 10px #000;
+    border-radius: 20px;
+}
+
+
+.text_paralilepiped{
+    text-align: left;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.zagolovok_paralilepiped{
+    text-align: left;
+    width: 400px;
+    font-weight: bold;
+}
+.flex_2groups{
+    margin-left: 500px;
+    width: 630px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    width: 200px;
+}
+
+.flex_4groups{
+    margin-left: 500px;
+    width: 630px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zagolovok_paralilepiped{
+    font-size: 18px;
+}
+</style>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header_text">
+                <h2 class="zagolovok_white">Lorem ipsum</h2>
+                <p class="font_size18 zagolovok_white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, libero?</p>
+            </div>
+                <div class="flex_cubes_head">
+                <div class="cube_head"></div>
+                <div class="cube_head"></div>
+                <div class="cube_head"></div>
+                </div>
+            <div class="header_text">
+                <h6 class="zagolovok_white">Lorem ipsum dolor sit amet consectetur adipisicing elit. A animi similique praesentium assumenda, blanditiis porro corrupti.</h6>
+            </div>
+            <div class="flex_cubes_body">
+                <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </div>
+                <div class="flex_cubes_body">
+                    <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </div>
+                    <div class="text_body">
+                        <h6 class="zagolovok_white">Lorem ipsum dolor sit amet consectetur adipisicing elit. A animi similique praesentium assumenda, blanditiis porro corrupti.</h6>
+                    </div>
+                    <div class="paralilepipedi">
+                        <div class="flex_2groups">
+                            <div class="group1_paralilepipedi">
+                                <div class="paralilepiped"></div>
+                                <div class="text">
+                                    <p class="zagolovok_paralilepiped">Lorem ipsum dolor sit amet.</p>
+                                    <p class="text_paralilepiped">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores itaque tenetur vero autem aliquid doloribus possimus libero aliquam fugit porro, tempore corporis voluptatum ad. Alias corrupti magnam cupiditate aperiam officia..</p>
+                                </div>
+                            </div>
+                            
+                            <div class="group2_paralilepipedi">
+                                <div class="paralilepiped"></div>
+                                <div class="text">
+                                    <p class="zagolovok_paralilepiped">Lorem ipsum dolor sit amet.</p>
+                                    <p class="text_paralilepiped">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores itaque tenetur vero autem aliquid doloribus possimus libero aliquam fugit porro, tempore corporis voluptatum ad. Alias corrupti magnam cupiditate aperiam officia..</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="flex_4groups">
+                            <div class="group3_paralilepipedi">
+                                <div class="paralilepiped"></div>
+                                <div class="text">
+                                    <p class="zagolovok_paralilepiped">Lorem ipsum dolor sit amet.</p>
+                                    <p class="text_paralilepiped">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores itaque tenetur vero autem aliquid doloribus possimus libero aliquam fugit porro, tempore corporis voluptatum ad. Alias corrupti magnam cupiditate aperiam officia..</p>
+                                </div>
+                            </div>
+                            <div class="group4_paralilepipedi">
+                                <div class="paralilepiped"></div>
+                                <div class="text">
+                                    <p class="zagolovok_paralilepiped">Lorem ipsum dolor sit amet.</p>
+                                    <p class="text_paralilepiped">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores itaque tenetur vero autem aliquid doloribus possimus libero aliquam fugit porro, tempore corporis voluptatum ad. Alias corrupti magnam cupiditate aperiam officia..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+</body>
+</html>
