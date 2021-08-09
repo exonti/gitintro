@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="document.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<style>
-*{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    <style>
+    *{
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -54,182 +54,158 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .header{
     width: 100%;
-    height: 200px;
-    background-color: #5c011f;
+    height: 150px;
+    background: #990000;
+}
+
+h1{
     text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 45px;
 }
 
-h2{
-    font-size: 60px;
+.lorem6{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
 }
 
-.zagolovok_black2{
-    font-size: 18px;
+.cube_header{
+    box-shadow: 0 0 20px #000;
+    width: 150px;
+    height: 150px;
+    background-color: #ff8ff8;
+    border-radius: 20px;
 }
 
-.flex_cubes_head{
+.flex_cubes{
+    margin-top: 10px;
+    margin-left: 450px;
     display: flex;
     justify-content: space-between;
     width: 600px;
-    margin-left: 500px;
-    
 }
 
-.cube_head{
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-    background: #1f5c01;
-    border-radius: 20px;
-    box-shadow: 0 0 10px #000;
-}
-
-.zagolovok_white{
-    color: #fff;
-    font-family: Verdana, Geneva, sans-serif;
-}
-
-.zagolovok_black{
-    margin-top: 40px;
-    font-size: 18px;
-    font-family: Verdana, Geneva, sans-serif;
-}
-
-.flex_cubes_body{
-    display: flex;
-    justify-content: space-between;
-    width: 800px;
-    margin-left: 400px;
+.podtext{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .cube_body{
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-    background: #1f5c01;
+    margin-top: 150px;
+    width: 120px;
+    height: 120px;
+    background-color: rosybrown;
     border-radius: 20px;
-    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 20px #000;
 }
 
-span{
-    position: relative;
-    top: 160px;
-    font-family: Verdana, Geneva, sans-serif;
+.flex_cubes_body{
+    margin-left: 480px;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+
 }
 
-.text_body{
-    margin-top: 100px;
+.lorem5{
+    margin-top: 130px;
+    font-family: sans-serif;
 }
 
 .paralilepiped{
     width: 300px;
-    height: 200px;
-    background-color: #1f5c01;
+    height: 150px;
+    background-color: #05f;
     box-shadow: 0 0 10px #000;
     border-radius: 20px;
 }
 
-
-.text_paralilepiped{
-    text-align: left;
+.text_rectangles{
     width: 300px;
-    margin-top: 10px;
 }
 
-.zagolovok_paralilepiped{
-    text-align: left;
-    width: 400px;
+.text_rectangles_bold{
     font-weight: bold;
+    font-size: 20px;
 }
-.flex_2groups{
-    margin-left: 500px;
-    width: 630px;
+
+.text_rectangles_norm{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.rectangles_flex{
+    margin-left: 430px;
+    width: 650px;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
-
-.text{
-    width: 200px;
-}
-
-.flex_4groups{
-    margin-left: 500px;
-    width: 630px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.zagolovok_paralilepiped{
-    font-size: 18px;
-}
-</style>
-    <div class="wrapper">
-        <div class="header">
-            <div class="header_text">
-                <h2 class="zagolovok_white">Lorem ipsum</h2>
-                <p class="font_size18 zagolovok_white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, libero?</p>
-            </div>
-                <div class="flex_cubes_head">
-                <div class="cube_head"></div>
-                <div class="cube_head"></div>
-                <div class="cube_head"></div>
+    </style>
+        <div class="wrapper">
+            <div class="header">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p class="lorem6">Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="flex_cubes">
+                    <div class="cube_header"></div>
+                    <div class="cube_header"></div>
+                    <div class="cube_header"></div>
                 </div>
-            <div class="header_text">
-                <h6 class="zagolovok_white">Lorem ipsum dolor sit amet consectetur adipisicing elit. A animi similique praesentium assumenda, blanditiis porro corrupti.</h6>
+                <p class="podtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ab.</p>
             </div>
-            <div class="flex_cubes_body">
-                <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
-                <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
-                <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
-                <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
+            <div class="flex_body_cubes">
+                <div class="flex_cubes_body">
+                    <div class="cube_body">  <p class="lorem5">Lorem ipsum dolor sit amet.</p></div>
+                    <div class="cube_body"><p class="lorem5">Lorem ipsum dolor sit amet.</p></div>
+                    <div class="cube_body"> <p class="lorem5">Lorem ipsum dolor sit amet.</p></div>
+                    <div class="cube_body"><p class="lorem5">Lorem ipsum dolor sit amet.</p></div>
                 </div>
                 <div class="flex_cubes_body">
-                    <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    <div class="cube_body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </div>
-                    <div class="text_body">
-                        <h6 class="zagolovok_white">Lorem ipsum dolor sit amet consectetur adipisicing elit. A animi similique praesentium assumenda, blanditiis porro corrupti.</h6>
-                    </div>
-                    <div class="paralilepipedi">
-                        <div class="flex_2groups">
-                            <div class="group1_paralilepipedi">
-                                <div class="paralilepiped"></div>
-                                <div class="text">
-                                    <p class="zagolovok_paralilepiped">Lorem ipsum dolor sit amet.</p>
-                                    <p class="text_paralilepiped">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores itaque tenetur vero autem aliquid doloribus possimus libero aliquam fugit porro, tempore corporis voluptatum ad. Alias corrupti magnam cupiditate aperiam officia..</p>
-                                </div>
-                            </div>
-                            
-                            <div class="group2_paralilepipedi">
-                                <div class="paralilepiped"></div>
-                                <div class="text">
-                                    <p class="zagolovok_paralilepiped">Lorem ipsum dolor sit amet.</p>
-                                    <p class="text_paralilepiped">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores itaque tenetur vero autem aliquid doloribus possimus libero aliquam fugit porro, tempore corporis voluptatum ad. Alias corrupti magnam cupiditate aperiam officia..</p>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="flex_4groups">
-                            <div class="group3_paralilepipedi">
-                                <div class="paralilepiped"></div>
-                                <div class="text">
-                                    <p class="zagolovok_paralilepiped">Lorem ipsum dolor sit amet.</p>
-                                    <p class="text_paralilepiped">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores itaque tenetur vero autem aliquid doloribus possimus libero aliquam fugit porro, tempore corporis voluptatum ad. Alias corrupti magnam cupiditate aperiam officia..</p>
-                                </div>
-                            </div>
-                            <div class="group4_paralilepipedi">
-                                <div class="paralilepiped"></div>
-                                <div class="text">
-                                    <p class="zagolovok_paralilepiped">Lorem ipsum dolor sit amet.</p>
-                                    <p class="text_paralilepiped">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores itaque tenetur vero autem aliquid doloribus possimus libero aliquam fugit porro, tempore corporis voluptatum ad. Alias corrupti magnam cupiditate aperiam officia..</p>
-                                </div>
-                            </div>
+                    <div class="cube_body"><p class="lorem5">Lorem ipsum dolor sit amet.</p></div>
+                    <div class="cube_body"><p class="lorem5">Lorem ipsum dolor sit amet.</p></div>
+                    <div class="cube_body"><p class="lorem5">Lorem ipsum dolor sit amet.</p></div>
+                    <div class="cube_body"><p class="lorem5">Lorem ipsum dolor sit amet.</p></div>
+                </div>
+                <div class="rectangles">
+                    <div class="rectangles_flex">
+                    <div class="group1">
+                        <div class="paralilepiped"></div>
+                        <div class="text_rectangles">
+                            <p class="text_rectangles_bold">Lorem ipsum dolor sit.</p>
+                            <p class="text_rectangles_norm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium porro dolorem distinctio commodi! Provident temporibus ipsam ad dolores non incidunt!!</p>
                         </div>
                     </div>
+                    <div class="group2">
+                        <div class="paralilepiped"></div>
+                        <div class="text_rectangles">
+                            <p class="text_rectangles_bold">Lorem ipsum dolor sit.</p>
+                            <p class="text_rectangles_norm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium porro dolorem distinctio commodi! Provident temporibus ipsam ad dolores non incidunt!!</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="rectangles_flex">
+                        <div class="group1">
+                            <div class="paralilepiped"></div>
+                            <div class="text_rectangles">
+                                <p class="text_rectangles_bold">Lorem ipsum dolor sit.</p>
+                                <p class="text_rectangles_norm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium porro dolorem distinctio commodi! Provident temporibus ipsam ad dolores non incidunt!!</p>
+                            </div>
+                        </div>
+                        <div class="group2">
+                            <div class="paralilepiped"></div>
+                            <div class="text_rectangles">
+                                <p class="text_rectangles_bold">Lorem ipsum dolor sit.</p>
+                                <p class="text_rectangles_norm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium porro dolorem distinctio commodi! Provident temporibus ipsam ad dolores non incidunt!!</p>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
